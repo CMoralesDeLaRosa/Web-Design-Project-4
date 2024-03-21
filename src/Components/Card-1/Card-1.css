@@ -1,0 +1,100 @@
+@import url('/style.css');
+.card1 {
+  width: 290px;
+  height: 400px;
+  background-color: var(--cv-color-4);
+  border-radius: var(--cv-br);
+  flex-direction: column;
+  gap: 40px;
+  -webkit-box-shadow: 9px 5px 5px 0px rgba(181, 179, 181, 1);
+  -moz-box-shadow: 9px 5px 5px 0px rgba(181, 179, 181, 1);
+  box-shadow: 9px 5px 5px 0px rgba(181, 179, 181, 1);
+  padding: 0;
+}
+
+.card1 > div:first-child {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  padding: auto;
+  background-color: var(--cv-color-1);
+}
+
+.card1 > div:first-child:hover {
+  scale: 1.3;
+}
+.card1 > div > img {
+  height: 80%;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.card1 > h4 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.card1 > .divCard1 > p:first-of-type {
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 80%;
+  text-align: center;
+}
+
+.card1 > .divCard1 > p:nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.divCard1 {
+  background-color: var(--cv-color-1);
+  width: 100%;
+  height: 100px;
+  justify-self: end;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 426px) {
+  .card1 {
+    width: 200px;
+    height: 290px;
+    gap: 20px;
+  }
+
+  .card1 > div:first-child {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    padding: auto;
+    background-color: var(--cv-color-1);
+  }
+
+  .card1 > div:first-child:hover {
+    scale: 1.3;
+  }
+  .card1 > div > img {
+    height: 80%;
+    object-fit: contain;
+    margin-left: 10px;
+  }
+
+  .card1 > h4 {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  .card1 > .divCard1 > p:first-of-type {
+    font-size: 11px;
+    font-weight: 400;
+    max-width: 80%;
+  }
+
+  .card1 > .divCard1 > p:nth-of-type(2) {
+    font-size: 11px;
+  }
+
+  .divCard1 {
+    height: 80px;
+  }
+}

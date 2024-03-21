@@ -1,0 +1,88 @@
+@import url('/style.css');
+
+.card2 {
+  width: 200px;
+  height: 320px;
+  border-radius: var(--cv-br);
+  background-color: var(--cv-color-3);
+  -webkit-box-shadow: 9px 5px 5px 0px rgba(181, 179, 181, 1);
+  -moz-box-shadow: 9px 5px 5px 0px rgba(181, 179, 181, 1);
+  box-shadow: 9px 5px 5px 0px rgba(181, 179, 181, 1);
+  border: 0.8px solid var(--cv-color-6);
+  align-content: start;
+  justify-content: center;
+  justify-items: start;
+  gap: 20px;
+  cursor: pointer;
+}
+.card2:hover {
+  scale: 1.1;
+}
+
+.card2 > div {
+  background-color: var(--cv-color-1);
+  width: 100%;
+  height: 24%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  border-radius: var(--cv-br) var(--cv-br) 0 0;
+}
+
+.card2 > img {
+  width: 200px;
+  height: 320px;
+  object-fit: cover;
+
+  border-radius: var(--cv-br);
+}
+
+.card2 > div > h4 {
+  min-height: 20%;
+  max-width: 80%;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.card2 > p {
+  max-width: 70%;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: justify;
+  min-height: 70%;
+  line-height: 1.2;
+}
+
+@media (max-width: 426px) {
+  .card2 {
+    width: 200px;
+    height: 290px;
+    gap: 17px;
+  }
+  .card2:hover {
+    scale: 1.1;
+  }
+
+  .card2 > div {
+    height: 70px;
+  }
+
+  .card2 > img {
+    width: 200px;
+    height: 290px;
+  }
+
+  .card2 > div > h4 {
+    font-size: 10px;
+  }
+
+  .card2 > p {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+}

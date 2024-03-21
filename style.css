@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100svh;
+}
+
+:root {
+  /*FONT*/
+  font-family: 'Jost', sans-serif;
+  font-optical-sizing: auto;
+
+  /*BRANDING COLORS*/
+  --cv-color-1: rgb(255, 255, 255);
+  --cv-color-2: rgb(188, 188, 188);
+  --cv-color-3: #f5c09e;
+  --cv-color-4: rgb(166, 166, 136);
+  --cv-color-5: rgb(0, 0, 0);
+
+  /*BACKGROUND COLORS*/
+  --cv-primary-bg: var(--cv-color-1);
+  --cv-secondary-bg: var(--cv-color-3);
+  --cv-tertiary-bg: var(--cv-color-4);
+
+  /*TEXT COLORS*/
+  --cv-primary-text: var(--cv-color-5);
+  --cv-secondary-text: var(--cv-color-4);
+  --cv-tertiary-text: var(var(--cv-color-1));
+
+  /*BORDER RADIUS*/
+  --cv-br: 20px;
+
+  /*SPACING*/
+  --cv-margin-xs: 10px;
+  --cv-margin-s: 20px;
+  --cv-margin-m: 30px;
+  --cv-margin-l: 40px;
+  --cv-margin-xl: 50px;
+  --cv-margin-section: 100px;
+
+  --cv-padding-xs: 10px;
+  --cv-padding-s: 20px;
+  --cv-padding-m: 30px;
+  --cv-padding-l: 40px;
+  --cv-padding-xl: 50px;
+  --cv-padding-section: 100px;
+}
+
+/*FLEX CONTAINER*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

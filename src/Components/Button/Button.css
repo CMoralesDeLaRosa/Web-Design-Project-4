@@ -1,0 +1,53 @@
+@import url('/style.css');
+
+.button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--cv-color-1);
+  color: var(--cv-color-5);
+  border-radius: var(--cv-br);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(181, 179, 181, 1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(181, 179, 181, 1);
+  box-shadow: 5px 5px 5px 0px rgba(181, 179, 181, 1);
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  border: 2px solid;
+  font-weight: 600;
+}
+
+.click {
+  background-color: var(--cv-color-3);
+  color: var(--cv-color-5);
+}
+
+@media (max-width: 426px) {
+  .button {
+    width: 100px;
+    height: 30px;
+    background-color: var(--cv-color-1);
+    color: var(--cv-color-5);
+    border-radius: var(--cv-br);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(181, 179, 181, 1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(181, 179, 181, 1);
+    box-shadow: 5px 5px 5px 0px rgba(181, 179, 181, 1);
+    font-size: 9px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+  }
+  .button:hover {
+    border: 2px solid;
+    font-weight: 600;
+  }
+
+  .click {
+    background-color: var(--cv-color-3);
+    color: var(--cv-color-5);
+  }
+}
